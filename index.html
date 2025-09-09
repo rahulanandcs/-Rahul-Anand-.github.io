@@ -2,22 +2,40 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Projects</title>
+  <title>My Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Welcome to My Portfolio</h1>
+  <header>
+    <h1>Welcome to My Portfolio</h1>
+    <p>Showcasing my web projects with live demos and video walkthroughs</p>
+  </header>
 
-  <h2>Verses&Vibes</h2>
-  <p><a href="https://versesnvibes.org/" target="_blank">View Live Site</a></p>
+  <main class="projects">
+    <!-- Project 1 -->
+    <section class="project-card">
+      <h2>Verses & Vibes</h2>
+      <p><a class="button" href="https://versesnvibes.org/" target="_blank">View Live Site</a></p>
+    </section>
 
-  <h2>Sip & Go</h2>
-  <iframe width="560" height="315" 
-          src="https://www.youtube.com/watch?v=09SbuahvWyY" 
-          frameborder="0" allowfullscreen>
-  </iframe>
+    <!-- Project 2 -->
+    <section class="project-card">
+      <h2>Sip & Go</h2>
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/09SbuahvWyY"
+                frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
 
-  <h2>JivaGym</h2>
-  <p><a href="https://jivagymtracker.com/" target="_blank">View Live Site</a></p>
+    <!-- Project 3 -->
+    <section class="project-card">
+      <h2>JivaGym</h2>
+      <p><a class="button" href="https://jivagymtracker.com/" target="_blank">View Live Site</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Rahul Anand • Built with ❤️ and GitHub Pages</p>
+  </footer>
 </body>
 </html>
